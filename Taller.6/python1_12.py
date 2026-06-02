@@ -3,7 +3,7 @@ import struct
 import time
 
 NTP_SERVER = "0.uk.pool.ntp.org"
-TIME1970 = 2208988800  
+TIME1970 = 1970
 
 def sntp_client():
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
